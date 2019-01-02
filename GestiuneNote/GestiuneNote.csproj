@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Repo\" />
+    <Folder Include="Service\" />
+    <Folder Include="UI\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Domain\EmptyClass.cs" />
+    <Compile Remove="EmptyInterface.cs" />
+    <Compile Remove="MemoryRepo.cs" />
+  </ItemGroup>
+</Project>
