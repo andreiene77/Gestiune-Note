@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{6DDEF1C2-50B2-494C-A693-2DD3A8BD44FC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GestiuneNote/Service/ServiceNote.cs">
+    <Files>
+      <File FileName="GestiuneNote/Service/ServiceNote.cs" Line="30" Column="66" />
+      <File FileName="GestiuneNote/Repo/Repo.cs" Line="15" Column="30" />
+      <File FileName="GestiuneNote/Domain/Nota.cs" Line="11" Column="45" />
+      <File FileName="GestiuneNote/UI/ConsoleUI.cs" Line="119" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GestiuneNote PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
