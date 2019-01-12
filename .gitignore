@@ -1,2 +1,18 @@
 
 .DS_Store
+.vs/GestiuneNote/xs/UserPrefs.xml
+GestiuneNote/.vscode/launch.json
+GestiuneNote/.vscode/tasks.json
+GestiuneNote/bin/Debug/netcoreapp2.1/GestiuneNote.deps.json
+GestiuneNote/bin/Debug/netcoreapp2.1/GestiuneNote.dll
+GestiuneNote/bin/Debug/netcoreapp2.1/GestiuneNote.pdb
+GestiuneNote/bin/Debug/netcoreapp2.1/GestiuneNote.runtimeconfig.dev.json
+GestiuneNote/bin/Debug/netcoreapp2.1/GestiuneNote.runtimeconfig.json
+GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.AssemblyInfo.cs
+GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.AssemblyInfoInputs.cache
+GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.csproj.CoreCompileInputs.cache
+GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.csproj.FileListAbsolute.txt
+GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.csprojAssemblyReference.cache
+GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.dll
+GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.pdb
+GestiuneNote/obj/Debug/netcoreapp2.1/project.razor.json

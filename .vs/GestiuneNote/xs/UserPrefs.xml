@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{6DDEF1C2-50B2-494C-A693-2DD3A8BD44FC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GestiuneNote Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GestiuneNote/Program.cs">
     <Files>
       <File FileName="GestiuneNote/Program.cs" Line="34" Column="1" />
-      <File FileName="GestiuneNote Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
