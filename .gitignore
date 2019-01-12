@@ -16,3 +16,7 @@ GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.csprojAssemblyReference.cache
 GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.dll
 GestiuneNote/obj/Debug/netcoreapp2.1/GestiuneNote.pdb
 GestiuneNote/obj/Debug/netcoreapp2.1/project.razor.json
+GestiuneNote/GestiuneNote/.vscode
+GestiuneNote/GestiuneNote/bin
+GestiuneNote/GestiuneNote/obj
+GestiuneNote/.DS_Store
