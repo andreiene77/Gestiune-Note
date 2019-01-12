@@ -41,5 +41,6 @@ namespace GestiuneNote
 
         public List<Nota> GetNote() => repositoryNote.Entities.Values.ToList();
         public List<Student> GetStuds() => repositoryStudent.Entities.Values.ToList();
+        // TODO: Filtre
     }
 }

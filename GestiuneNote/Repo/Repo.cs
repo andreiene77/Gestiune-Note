@@ -16,9 +16,9 @@ namespace GestiuneNote
             return Entities[id];
         }
 
-        public void Save(E entity) => Entities.Add(entity.Id, entity);
+        public virtual void Save(E entity) => Entities.Add(entity.Id, entity);
 
-        public void Update(E entity)
+        public virtual void Update(E entity)
         {
             Entities.Remove(entity.Id);
             Entities.Add(entity.Id, entity);

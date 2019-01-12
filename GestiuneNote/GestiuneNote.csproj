@@ -11,6 +11,7 @@
     <Folder Include="Service\" />
     <Folder Include="UI\" />
     <Folder Include="Utils\" />
+    <Folder Include="XMLs\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Domain\EmptyClass.cs" />

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <student id="1">
+    <nume>Student 1</nume>
+    <grupa>221</grupa>
+    <email>student1@facultate.ro</email>
+    <prof>Prof</prof>
+  </student>
+  <student id="2">
+    <nume>Student 2</nume>
+    <grupa>221</grupa>
+    <email>student2@facultate.ro</email>
+    <prof>Prof</prof>
+  </student>
+  <student id="3">
+    <nume>Student 3</nume>
+    <grupa>221</grupa>
+    <email>student3@facultate.ro</email>
+    <prof>Prof</prof>
+  </student>
+</root>

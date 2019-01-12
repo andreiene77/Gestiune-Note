@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Xml.Linq;
 using GestiuneNote.Domain;
 
 namespace GestiuneNote
@@ -18,6 +20,8 @@ namespace GestiuneNote
             StartDate = startDate;
         }
 
+        public Tema() { }
+
         public override bool Equals(object obj)
         {
             return obj is Tema tema &&
@@ -30,5 +34,23 @@ namespace GestiuneNote
         public override int GetHashCode() => HashCode.Combine(Id, Description, Deadline, StartDate);
 
         public override string ToString() => Id + ", " + Description + ", " + Deadline + ", " + StartDate;
+
+        public void CreateEntityFromElement(XElement elem)
+        {
+            Id = elem.Attribute("id").Value;
+            Description = elem.Descendants("description").First().Value;
+            Deadline = Int32.Parse(elem.Descendants("deadline").First().Value);
+            StartDate = Int32.Parse(elem.Descendants("startdate").First().Value);
+        }
+
+        public XElement CreateElementFromEntity()
+        {
+            var tema = new XElement("tema");
+            tema.Add(new XAttribute("id", Id));
+            tema.Add(new XElement("description", Description));
+            tema.Add(new XElement("deadline", Deadline));
+            tema.Add(new XElement("startdate", StartDate));
+            return tema;
+        }
     }
 }
